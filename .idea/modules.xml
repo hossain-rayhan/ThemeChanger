@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ThemeChanger.iml" filepath="$PROJECT_DIR$/ThemeChanger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThemeChanger/ThemeChanger-ThemeChanger.iml" filepath="$PROJECT_DIR$/ThemeChanger/ThemeChanger-ThemeChanger.iml" />
+    </modules>
+  </component>
+</project>
+
