@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="E:\Android\Git\ThemeChanger\ThemeChanger\build\intermediates\pre-dexed\debug\InterpeterService-cf1329e974530d1642e095f3c4895ba92e73bac8.jar"
+        jar="E:\Android\Git\ThemeChanger\ThemeChanger\libs\InterpeterService.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="831681381e7e470e2826c632c0b862f84b7fb0c4"/>
+    <item
+        dex="E:\Android\Git\ThemeChanger\ThemeChanger\build\intermediates\pre-dexed\debug\script-api-1.0-jdk14-150a97d65355671b10ab20c3315fa4a5f4264078.jar"
+        jar="E:\Android\Git\ThemeChanger\ThemeChanger\libs\script-api-1.0-jdk14.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="6c1a4f59c9864e6e1d2d9786d7d5a4d13ae6dffd"/>
+
+</pre-dex-items>

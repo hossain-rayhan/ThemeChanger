@@ -2,16 +2,18 @@ package com.apptitive.themechanger;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.LinearLayout;
 
+import com.apptitive.themechanger.helper.MathEval;
 
 public class MainActivity extends Activity implements View.OnClickListener {
-    private Button btn1, btn2, btn3;
+
     LinearLayout llMainBody;
+    MathEval mathEval;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +24,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
         findViewById(R.id.btn_1).setOnClickListener(this);
         findViewById(R.id.btn_2).setOnClickListener(this);
         findViewById(R.id.btn_3).setOnClickListener(this);
+
+        mathEval = new MathEval();
+        Double result = mathEval.evaluate("5+5+4-1*3");
+        Log.e("MathEval ", "" + result);
     }
 
 

@@ -7,5 +7,7 @@
 
     <color name="black">#000000</color>
     <color name="white_transparent_20">#33FFFFFF</color>
+    <color name="blue_light">#81BEF7</color>
+    <color name="spinner_bg">#848484</color>
 
 </resources>
